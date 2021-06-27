@@ -1,0 +1,45 @@
+{
+  "name": "vuepress-plugin-demo-preview",
+  "version": "1.0.0",
+  "keywords": [
+    "vuepress-plugin"
+  ],
+  "description": "A plugin that can preview your vue code for vuepress v2",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c rollup.config.js"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zerous2070/vuepress-plugin-demo-preview.git"
+  },
+  "author": "Zerous",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zerous2070/vuepress-plugin-demo-preview/issues"
+  },
+  "homepage": "https://github.com/Zerous2070/vuepress-plugin-demo-preview#readme",
+  "dependencies": {
+    "vue": "^3.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@vue/compiler-sfc": "^3.1.2",
+    "babel-standalone": "^6.26.0",
+    "codemirror": "^5.62.0",
+    "markdown-it-container": "^3.0.0",
+    "node-sass": "^6.0.1",
+    "rollup": "^2.52.3",
+    "rollup-plugin-babel": "^4.2.0",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-postcss": "^1.6.3",
+    "rollup-plugin-string": "^2.0.2",
+    "rollup-plugin-uglify": "^6.0.0",
+    "rollup-plugin-vue": "^6.0.0"
+  }
+}
